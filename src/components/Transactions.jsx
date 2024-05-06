@@ -17,7 +17,7 @@ const TransactionsCard = ({ addressTo, addressFrom, timestamp, message, keyword,
 	<div className="flex flex-col items-center w-full mt-3">
 		<div className="display-flex justify-start w-full mb-6 p-2">
 		<a
-			href={`https://ropsten.etherscan.io/address/${addressFrom}`}
+			href={`https://sepolia.etherscan.io/address/${addressFrom}`}
 			target="_blank"
 			rel="noreferrer"
 		>
@@ -26,7 +26,7 @@ const TransactionsCard = ({ addressTo, addressFrom, timestamp, message, keyword,
 			</p>
 		</a>
 		<a
-			href={`https://ropsten.etherscan.io/address/${addressTo}`}
+			href={`https://sepolia.etherscan.io/address/${addressTo}`}
 			target="_blank"
 			rel="noreferrer"
 		>
